@@ -32,12 +32,7 @@ while q:
 
   # 가장자리 - 탈출 성공
   if not is_fire:
-    if cur_y == r-1 or cur_y == 0 or cur_x == c-1 or cur_x == 0:
-      print(visited[cur_y][cur_x] + 1)
-      break
-
-  # 이동
-  for i in range(4):
+    if cur_y == r-1 or cur_y == 0 or cui in range(4):
     nx = cur_x + dx[i]
     ny = cur_y + dy[i]
     if 0 <= nx < c and 0 <= ny < r:
